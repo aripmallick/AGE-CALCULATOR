@@ -13,9 +13,9 @@
             <div class="birthDate">
                 <lebel class="label_center">Date of Birth : </lebel>
                 <div class="inp_box">
-                    <input type="number" class="birth_inp" id="day" placeholder="dd">/
-                    <input type="number" class="birth_inp" id="month" placeholder="mm">/
-                    <input type="number" class="birth_inp" id="year" placeholder="yyyy">
+                    <input type="number" maxlength="2" oninput="this.value=this.value.slice(0,2)" class="birth_inp" id="day" placeholder="dd">/
+                    <input type="number" maxlength="2" oninput="this.value=this.value.slice(0,2)" class="birth_inp" id="month" placeholder="mm">/
+                    <input type="number" maxlength="4" oninput="this.value=this.value.slice(0,4)" class="birth_inp" id="year" placeholder="yyyy">
                 </div>
             </div>
 
