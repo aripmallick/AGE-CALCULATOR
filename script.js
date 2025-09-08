@@ -29,6 +29,9 @@ function calculate(){
         m2=m2+12;
         y2=y2-1;
     }
+    if(y1>y2){
+        alert('Please Enter Valid Date')
+    }
 
     d=d2-d1;
     m=m2-m1;
@@ -39,6 +42,7 @@ function calculate(){
         
     
     }
+    
     else{
    
         alert('Please Enter Valid Date')
